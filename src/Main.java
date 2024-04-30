@@ -26,8 +26,7 @@ public class Main {
             counter++;
         }
 
-        rating = rating / users;
-        System.out.printf("Rating: %,.1f%n", rating);
+        System.out.printf("Rating: %,.1f%n", rating / users);
     }
 
 
