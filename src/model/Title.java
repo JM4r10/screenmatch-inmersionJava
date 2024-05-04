@@ -8,8 +8,6 @@ public class Title {
     private int lengthInMinutes;
     private String name;
 
-    public Title() {
-    }
 
     public Title(String name, int releaseDate) {
         this.name = name;
