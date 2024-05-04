@@ -5,8 +5,6 @@ public class Series extends Title{
     private int episodesPerSeason;
     private int lengthOfEpisodesInMinutes;
 
-
-
     public Series(String name, int releaseDate, int seasons, int episodesPerSeason, int lengthOfEpisodesInMinutes) {
         super(name, releaseDate);
         this.seasons = seasons;
@@ -41,6 +39,4 @@ public class Series extends Title{
     public int getLengthInMinutes() {
         return lengthOfEpisodesInMinutes * episodesPerSeason * seasons;
     }
-
-
 }
